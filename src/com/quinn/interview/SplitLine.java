@@ -24,7 +24,7 @@ public class SplitLine {
     private static final char SPLIT_OF_POSSIBLE_BREAK = '?';
 
     /**
-     * 错误断句的占位符号
+     * 正常断句的占位符号
      */
     private static final char SPLIT_OF_NORMAL_BREAK = ' ';
 
