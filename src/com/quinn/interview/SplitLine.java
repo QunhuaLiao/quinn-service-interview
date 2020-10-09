@@ -34,8 +34,8 @@ public class SplitLine {
     private static final char SPLIT_OF_ERROR_BREAK = '*';
 
     /**
-     * 最小胡字符：可以根据实际情况加入数字（现在情况所有数字单独成词）
-     * 用于计算偏移量：0位用作单词分隔符; 1位用于空格
+     * 最小字符：可以根据实际情况加入数字（现在情况所有数字单独成词）用于偏移计算
+     * 用于计算偏移量：0位用作单词分隔符; 1位用于空格（数组多比字母总数多留两位置）
      */
     private static final char MIN_CHAR_OF_ENGLISH = 'a' - 2;
 
