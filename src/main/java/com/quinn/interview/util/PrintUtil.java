@@ -18,7 +18,7 @@ public final class PrintUtil {
             LOGGER.debug(title);
         }
         if (array == null) {
-            LOGGER.debug("*null");
+            LOGGER.debug("*null*");
         } else {
             for (T t : array) {
                 LOGGER.debug(String.valueOf(t));

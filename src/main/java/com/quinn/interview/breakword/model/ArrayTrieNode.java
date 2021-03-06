@@ -14,6 +14,8 @@ import com.quinn.interview.breakword.enums.TrieNodeTypeEnum;
  * <p>
  * so the path of "hello" in the tree is '\t'(root) -> 'h' -> 'e' -> 'l' -> 'l' -> 'o' -> '\t'
  * and so when the dictionary has two words "hell", "hello", then the tree structure is like blow (...)
+ * '\t'(root) -> 'h' -> 'e' -> 'l' -> 'l' -> 'o' -> '\t'
+ *                                        -> '\t'
  *
  * @author Qunhua.Liao
  * @since 2020-10-13
